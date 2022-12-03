@@ -1,0 +1,9 @@
+.purple-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  height: auto;
+  width: auto;
+}
