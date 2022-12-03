@@ -4,20 +4,23 @@
   margin: 10%;
 }
 img {
-  height: auto;
-  width: auto;
   max-width: 450px;
   max-height: 450px;
 }
-.text {
-  flex: 50%;
+.container {
+  padding: 5px;
+  margin: 70px;
 }
-.image {
+.text {
   flex: 50%;
 }
 .numbers {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+.design {
+  margin: 70px;
 }
 
 /* mobile view */
