@@ -15,6 +15,10 @@ img {
 .image {
   flex: 50%;
 }
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* mobile view */
 /* @media screen {
