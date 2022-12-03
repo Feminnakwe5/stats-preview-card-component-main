@@ -1,9 +1,25 @@
 .purple-body {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10%;
 }
 img {
   height: auto;
   width: auto;
+  max-width: 450px;
+  max-height: 450px;
 }
+.text {
+  flex: 50%;
+}
+.image {
+  flex: 50%;
+}
+
+/* mobile view */
+/* @media screen {
+  .purple-body {
+    min-width: 640px;
+    flex-direction: row-reverse;
+  }
+} */
