@@ -10,7 +10,15 @@ body {
   align-items: center;
   justify-content: center;
   margin: auto;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
 }
-h1 {
+
+h1,
+h2 {
   color: hsl(0, 0%, 100%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
 }
