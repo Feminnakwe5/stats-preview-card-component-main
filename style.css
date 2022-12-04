@@ -1,6 +1,7 @@
 body {
   font-family: 'inter', sans-serif;
   font-weight: 400, 700;
+  background-color: hsl(233, 47%, 7%);
 }
 .purple-body {
   display: flex;
@@ -33,7 +34,7 @@ img {
   justify-content: space-between;
 }
 .design {
-  z-index: -2;
+  z-index: -10;
 }
 
 /* mobile view */
