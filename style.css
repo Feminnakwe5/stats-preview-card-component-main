@@ -1,18 +1,31 @@
+body {
+  font-family: 'inter', sans-serif;
+  font-weight: 400, 700;
+}
 .purple-body {
   display: flex;
   flex-wrap: wrap;
   margin: 10%;
+  background: hsl(277, 64%, 61%);
+  overflow: hidden;
+  height: 100%;
+  z-index: 0;
 }
 img {
-  max-width: 450px;
+  max-width: 490px;
   max-height: 450px;
 }
 .container {
   padding: 5px;
-  margin: 70px;
+  margin: 30px;
+}
+.picture {
+ img
 }
 .text {
   flex: 50%;
+  background-color: hsl(244, 38%, 16%);
+  color: hsl(0, 0%, 100%);
 }
 .numbers {
   display: flex;
@@ -20,7 +33,7 @@ img {
   justify-content: space-between;
 }
 .design {
-  margin: 70px;
+  z-index: -2;
 }
 
 /* mobile view */
