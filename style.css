@@ -13,6 +13,10 @@ body {
   font-family: Inter, sans-serif;
   font-size: 15px;
 }
+.main-container {
+  position: relative;
+  border: solid black 1px;
+}
 
 h1,
 h2 {
